@@ -42,7 +42,7 @@ const Navbar = () => {
         </div>
         {/* Mobile menu */}
         {openMenu ? (
-          <div>
+          <div className="absolute bg-black w-full">
             <ul className="flex flex-col gap-y-3">
               <li className="cursor-pointer border-b-5 font-bold">
                 Home
