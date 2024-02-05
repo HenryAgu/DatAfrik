@@ -1,12 +1,14 @@
 // components
+import Home from "./Pages/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
 
   return (
-    <section className="bg-black h-screen font-inter">
+    <main className="p-5 bg-black h-screen font-inter">
       <Navbar/>
-    </section>
+      <Home/>
+    </main>
   );
 }
 

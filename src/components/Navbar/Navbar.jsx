@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <section>
       {/* Desktop */}
-      <div className="text-white p-5 xl:p-8 xl:w-4/5 xl:my-0 xl:mx-auto xl:flex xl:items-center xl:justify-between">
+      <div className="text-white xl:p-8 xl:w-4/5 xl:my-0 xl:mx-auto xl:flex xl:items-center xl:justify-between">
         <div className="flex item-center justify-between">
           <div>
             <h1 className="font-semibold xl:text-xl xl:font-bold">JustAnotherUIKit</h1>

@@ -7,9 +7,14 @@ export default {
   theme: {
     extend: {
       colors:{
+        yellow: "#FFFF00",
+        skyBlue: "#91D2F7"
       },
       fontFamily:{
         inter: ['Inter', 'sans-serif']
+      },
+      fontSize:{
+        paragraph: "16px",
       }
     },
   },
