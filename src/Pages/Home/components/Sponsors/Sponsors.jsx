@@ -2,7 +2,7 @@ import React from "react";
 
 const Sponsors = () => {
   return (
-    <section className="my-30 xl:my-60 mx-auto text-center xl:w-4/5 pb-10">
+    <section className="my-30 xl:my-60 mx-auto text-center xl:w-4/5 pb-20">
       <p className="text-white font-bold xl:text-base leading-5 mb-5">
         Supported and backed by:
       </p>
