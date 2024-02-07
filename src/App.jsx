@@ -1,6 +1,7 @@
 // components
 import Home from "./Pages/Home/Home";
 import About from "./Pages/Home/components/About/About";
+import Contact from "./Pages/Home/components/Contact/Contact";
 import Sponsors from "./Pages/Home/components/Sponsors/Sponsors";
 import Navbar from "./components/Navbar/Navbar";
 
@@ -12,6 +13,7 @@ const App = () => {
       <Home/>
       <Sponsors/>
       <About/>
+      <Contact/>
     </main>
   );
 }
