@@ -34,16 +34,16 @@ const Navbar = () => {
         <div className="hidden xl:block">
           <ul className="xl:flex xl:items-center xl:justify-between xl:gap-x-8">
             <li className="cursor-pointer xl:text-base xl:font-bold xl:leading-5">
-              Home
+              <a href="#Hero">Home</a>
             </li>
             <li className="cursor-pointer xl:text-base xl:font-extralight xl:leading-5">
-              About
+              <a href="#About">About</a>
             </li>
             <li className="cursor-pointer xl:text-base xl:font-extralight xl:leading-5">
-              Contact
+              <a href="#Contact">Contact</a>
             </li>
             <li className="cursor-pointer xl:text-base xl:font-extralight xl:leading-5">
-              Blog
+              <a href="#Blog">Blog</a>
             </li>
           </ul>
         </div>
@@ -52,16 +52,16 @@ const Navbar = () => {
           <div className={`absolute bg-black w-full ${isTransitioning ? 'transition-all duration-300' : ''}`}>
             <ul className="flex flex-col gap-y-3">
               <li className="cursor-pointer border-b-5 font-bold">
-                Home
+                <a href="#Home">Home</a>
               </li>
               <li className="cursor-pointer border-b-5">
-                About
+                <a href="#About">About</a>
               </li>
               <li className="cursor-pointer border-b-5">
-                Contact
+                <a href="#Contact">Contact</a>
               </li>
               <li className="cursor-pointer border-b-5">
-                Blog
+                <a href="#Blog">Blog</a>
               </li>
             </ul>
           </div>
