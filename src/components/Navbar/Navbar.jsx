@@ -6,6 +6,13 @@ import { MdClose } from "react-icons/md";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
+  const [isTransitioning, setIsTransitioning] = useState(false);
+
+  // handle menu toggle
+  const handleMenuToggle = () => {
+    setOpenMenu(!openMenu);
+    setIsTransitioning(true);
+  }
   return (
     <section>
       {/* Desktop */}
@@ -15,7 +22,7 @@ const Navbar = () => {
             <h1 className="font-semibold xl:text-xl xl:font-bold">JustAnotherUIKit</h1>
           </div>
           <div className="xl:hidden">
-            <button onClick={() => setOpenMenu(!openMenu)}>
+            <button onClick={handleMenuToggle}>
               {openMenu ? (
                 <MdClose className="text-3xl" />
               ) : (
@@ -42,7 +49,7 @@ const Navbar = () => {
         </div>
         {/* Mobile menu */}
         {openMenu ? (
-          <div className="absolute bg-black w-full">
+          <div className={`absolute bg-black w-full ${isTransitioning ? 'transition-all duration-300' : ''}`}>
             <ul className="flex flex-col gap-y-3">
               <li className="cursor-pointer border-b-5 font-bold">
                 Home
