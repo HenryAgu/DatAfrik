@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar/Navbar";
 const App = () => {
 
   return (
-    <main className="p-5 bg-black min-h-screen font-inter">
+    <main className="p-8 bg-black min-h-screen font-inter">
       <Navbar/>
       <Home/>
       <Sponsors/>
