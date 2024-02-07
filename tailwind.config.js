@@ -8,7 +8,8 @@ export default {
     extend: {
       colors:{
         yellow: "#FFFF00",
-        skyBlue: "#91D2F7"
+        skyBlue: "#91D2F7",
+        gray: "#D9D9D9",
       },
       fontFamily:{
         inter: ['Inter', 'sans-serif']

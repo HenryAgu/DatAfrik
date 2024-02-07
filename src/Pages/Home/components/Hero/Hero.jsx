@@ -4,7 +4,7 @@ import ArrowImage from "./images/Arrow.svg";
 
 const Hero = () => {
   return (
-    <div className="text-white my-10 md:my-24 xl:my-24 text-center">
+    <div className="text-white my-10 md:my-24 xl:my-24 text-center mb-32">
       <h1 className="text-2xl xl:text-5xl font-bold xl:leading-12 w-9/12 xl:w-6/12 my-0 mx-auto">
         It doesn’t matter what <span className="text-yellow">JS Framework</span>{" "}
         you work with.
