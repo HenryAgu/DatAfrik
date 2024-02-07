@@ -2,9 +2,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="text-white xl:p-8 xl:w-4/5 xl:my-0 xl:mx-auto pb-20">
+    <section className="text-white xl:p-8 xl:w-4/5 xl:my-0 xl:mx-auto pb-10 xl:pb-20">
       <h1 className="font-bold text-3xl xl:text-4xl mb-5 xl:mb-10">Contact</h1>
-      <div className="text-center pb-20 xl:mx-10">
+      <div className="text-center pb-10 xl:pb-20 xl:mx-10">
         <p className="font-bold text-sm xl:text-base xl:leading-5">
           Fill out this form to reach us.
         </p>
